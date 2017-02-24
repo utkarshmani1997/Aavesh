@@ -1,0 +1,188 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  background: ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: none;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: white;
+  color: #5CB85C;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 25px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.Login
+{
+	
+	border-radius:50px;
+}
+
+/
+.navbar-light button[type="search"] {  
+    	-webkit-box-shadow: none;
+    	 outline: 50px;
+}
+.navbar{
+	 
+	 background-color: White;
+     background-image: none;
+     background-repeat: no-repeat;
+	 border-bottom:2px Solid #5CB85C;
+}	
+
+.nav-link {
+	
+	color: #5CB85C !important;
+    padding: 15px;
+}
+
+.navbar-brand{
+	
+	color: #5CB85C !important;
+	
+}
+
+a{
+	color:#5CB85C;
+}
+
+a:hover{
+	
+	color: Green !important;
+}
+#footer-name{
+	padding-top: 20px;
+	color: #5CB85C;
+	
+}
+
+.grow { 
+
+     transition: all .5s ease-in-out; 
+}
+
+.grow:hover { 
+
+     transform: scale(1.2); 
+}	
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+	  
+.clear {
+                
+    clear:both;              
+}
+
+
+			
+.Notice{
+	float: right;
+	height:300px;
+	width:300px;
+	margin-top:0px;
+	border-left: 2px Solid #5CB85C;
+	
+}
+
+ .carousel {
+    height: 420px;
+}
+
+.item {
+    height: 420px;
+    background-color: lightgrey;
+}
+
+.item > img {
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+p {
+    padding-bottom:5px;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-indicators .active {
+    background-color: cornflowerblue;
+}
+
+.carousel-custom{
+	
+	width:600px;
+	height:300px;
+}
+
+#parent1{
+    width:900px;
+    height:450px;
+    border:3px solid #5CB85C;
+    margin-right:10px;
+    margin-top:5px;
+	margin-left:15px;
+    float:left;
+}
+
+#parent2{
+    width:400px;
+    height:450px;
+    border:3px solid #5CB85C;
+    margin-right:10px;
+    margin-top:5px;
+	margin-left:10px;
+    float:left;
+
+.left-div{
+	
+	float:left;
+    margin-right:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
