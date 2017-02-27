@@ -1,9 +1,7 @@
-/* Sticky footer styles
--------------------------------------------------- */
 html {
   position: relative;
   min-height: 100%;
-  background: ; 
+ 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,75 +10,86 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-image: none;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: white;
-  color: #5CB85C;
+     /* background:rgba(0,0,0,0.6) ;*/
+	  background: url("C:/Users/UTKARSH/Desktop/Aavesh/Photos/background13.jpg") ;
+   max-height:auto;
+   max-width:auto;   
 }
 
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-.container {
-  width: auto;
-  max-width: 680px;
-  padding: 0 25px;
-}
-.container .text-muted {
-  margin: 20px 0;
+.navbar-fixed-bottom, .fixed-top {
+    border-radius: 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+	background-color:
 }
 
 .Login
 {
 	
 	border-radius:50px;
+	font-size:1.1rem;
+	border:2px Solid #FFFFFF; 
 }
 
-/
-.navbar-light button[type="search"] {  
-    	-webkit-box-shadow: none;
+.navbar-inverse button[type="search"] {  
+    	
+		 -webkit-box-shadow: none;
     	 outline: 50px;
+		 color:#FFFFFF;
+		 background-color:rgb(178, 0, 255);
+}
+
+.navbar-inverse{
+	
+	background-color:rgb(169, 16, 234);
 }
 .navbar{
-	 
-	 background-color: White;
-     background-image: none;
+	
+	background:rgba(0,0,0,0.1);
+	 background-color: rgb(169, 16, 234);
      background-repeat: no-repeat;
-	 border-bottom:2px Solid #5CB85C;
+	/* border-bottom:2px Solid #5CB85C;*/
 }	
 
 .nav-link {
 	
-	color: #5CB85C !important;
+	color: #FFFFFF !important;
     padding: 15px;
+	margin-left: 25px;
+	font-size:1.1rem;
 }
 
-.navbar-brand{
+.navbar-item{
 	
-	color: #5CB85C !important;
+	width:70px !important;
+	margin-left:20px  !important;
 	
 }
 
-a{
-	color:#5CB85C;
+.navbar-nav{
+	
+	width:600px;
 }
 
-a:hover{
-	
-	color: Green !important;
+.btn:focus, .btn:active:focus, .btn.active:focus {
+   /* outline: 0 none;*/
 }
+
 #footer-name{
 	padding-top: 20px;
 	color: #5CB85C;
 	
+}
+
+a{
+	/*color:#5CB85C;*/
+}
+
+a:hover{
+	
+	/*color: Green !important;*/
 }
 
 .grow { 
@@ -91,98 +100,71 @@ a:hover{
 .grow:hover { 
 
      transform: scale(1.2); 
-}	
-
-.btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: 0 none;
-}
-	  
-.clear {
-                
-    clear:both;              
 }
 
-
-			
-.Notice{
-	float: right;
-	height:300px;
-	width:300px;
-	margin-top:0px;
-	border-left: 2px Solid #5CB85C;
+.carousel{
 	
+   height:500px;
+   width:100%;   
 }
 
- .carousel {
-    height: 420px;
-}
-
-.item {
-    height: 420px;
-    background-color: lightgrey;
-}
-
-.item > img {
-    margin: 0 auto;
-    padding-top: 15px;
-}
-
-p {
-    padding-bottom:5px;
-}
-
-.carousel-indicators li {
-    background-color: black;
-}
-
-.carousel-indicators .active {
-    background-color: cornflowerblue;
-}
-
-.carousel-custom{
+.carousel-item{
 	
-	width:600px;
+	height:500px;
+}
+
+.image{
+	
 	height:300px;
+	width:500px;
 }
 
-#parent1{
-    width:900px;
-    height:450px;
-    border:3px solid #5CB85C;
-    margin-right:10px;
-    margin-top:5px;
-	margin-left:15px;
-    float:left;
+.img-team{
+	
+	border-radius: 100px;
+	height: 150px;
+	width: 150px;
 }
 
-#parent2{
-    width:400px;
-    height:450px;
-    border:3px solid #5CB85C;
-    margin-right:10px;
-    margin-top:5px;
+.notice{
+	
+	color:rgb(169, 16, 234);
+	text-align:center;
+	padding-top:20px;
+	border:2px solid rgb(169, 16, 234);
+	height:350px;
+	width:230px;
+}
+
+
+
+.bakwas{
+	
+	margin-top:20px;
+}
+.past-events{
+	
 	margin-left:10px;
-    float:left;
-
-.left-div{
-	
-	float:left;
-    margin-right:5px;
+	text-align:center;
+	color:rgb(169, 16, 234);
+	border:2px solid rgb(169, 16, 234);
 }
 
 
+section{
+	
+	padding:20px;
+}
 
+#team{
+ 
+   text-align:center;
+   background:url("C:/Users/UTKARSH/Desktop/Aavesh/Photos/background9.jpg") top left no-repeat;
+   color:white;
+   opacity:0.9;
+   margin:15px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.marquee{
+	padding-top:70px;
+}
