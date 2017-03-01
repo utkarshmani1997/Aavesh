@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+   
+    <title>Homepage</title>
       
     <meta charset="utf-8">
       
@@ -20,7 +22,7 @@
      <!-- NAVIGATION BAR -->
 		<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-faded">
 		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<span class="navbar-toggler-icon "></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
@@ -28,10 +30,10 @@
 				<a class="nav-link grow" href="#">Home <span class="sr-only">(current)</span></a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link grow" href="#">Events</a>
+				<a class="nav-link grow" href="Events.html">Events</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link grow" href="#">Gallery</a>
+				<a class="nav-link grow" href="Gallery.html">Gallery</a>
 			  </li>
 			   <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle grow"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apply</a>
@@ -45,6 +47,9 @@
 				<a class="nav-link grow" href="#team">About us</a>
 			  </li>
 			  <li class="nav-item">
+				<a class="nav-link grow" href="#team">Blog</a>
+			  </li>
+			  <li class="nav-item">
 				<a class="nav-link grow" data-toggle="modal" data-target="#myModal3">Report</a>
 			  </li>
 			</ul>
@@ -55,6 +60,8 @@
 		</nav><!--NAVIGATION BAR END-->
 		
 	<!--GRID Containing Ongoing Events-->
+	     <section>
+		 </section>
         <section class="marquee">
 		  <marquee  behavior="alternate" background=transarent width=1300 height=20 direction=left style="color:rgb(169, 16, 234);" ><a>hey! What's up? is everything fine!! chill bro</a></marquee>
 		</section>
@@ -64,7 +71,7 @@
        <div class="row">
            <div class="col-sm-12">	
              		   
-		    <h1 style="color:rgb(169, 16, 234);text-align:center;">Ongoing Events</h3>
+		    <h1 class="title" style="color:#FFFFFF;">Ongoing Events</h3>
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			  <ol class="carousel-indicators">
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -94,13 +101,14 @@
           </div>
 	   </div>
 	 </section><!--Grid end-->
+	 <hr>
   <!--Notice & Past Events-->	 
 	<section class="bakwas">  
 	  <div class="container-fluid">
        <div class="row">	   
 	      <div class="col-sm-2">
-		    <div class="notice"><h1>Notice</h1>
-		      <marquee  bgcolor=transparent width=200 height=250 direction=up style="padding-left:10px;color:rgb(169, 16, 234)" ><a>hey! What's up? </a><br/>
+		    <div class="notice"><h1 class="title" style="color:#FFFFFF">Notice</h1>
+		      <marquee  bgcolor=transparent width=200 height=260 direction=up style="padding-left:10px;color:rgb(169, 16, 234)" ><a>hey! What's up? </a><br/>
 				   <a>This is notice yo</a><br/>
 				   <a>this is moving yo</a><br/>
 				   <a>are you kidding bro</a><br/>
@@ -112,7 +120,7 @@
 	        </div>
 		  </div>	
 		  <div class="container-fluid">
-		    <div class="past-events"><h2>Past Events</h2>
+		    <div class="past-events"><h2 class="title" style="color:#FFFFFF">Past Events</h2>
 		      <div class="row ">
 		       <div class="col-sm-6">
 			     <img class="image img-fluid" alt="Responsive image" src="background4.jpg">
@@ -126,79 +134,87 @@
       </div>
 	 </div> 
    </section><!--Notice & Past Events-->	 
-
+    <hr>
  <!--Meet Our Team-->  
    <section id="team">
       <div class="container">
 	    <h1 style="text-align:center">Meet Our Team</h1>
 	    <div class="row">
 		   <div class="col-sm-3">
-		     <img src="C:/Users/UTKARSH/Desktop/Aavesh/Photos/Utkarsh.jpg" alt="Men's Face" class="rounded img-team">
+		     <img src="C:/Users/UTKARSH/Desktop/Aavesh/Photos/Utkarsh.jpg" alt="Men's Face" class="rounded img-team img-fluid">
 			  <h4>Utkarsh</h4>
 			  <p>Hi there!It's Utkarsh.I am a Web-developer and a passionate writer.Currently i am persuing my B.Tech from KIIT UNIVERSITY,ODISHA.</p>
-		      <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/utkarshmani1997" target="_blank">
-                 <span class="fa fa-facebook-square"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-twitter">
-                 <span class="fa fa-twitter-square"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-quora">
-                 <span class="fa fa-quora"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-linkedin">
-                 <span class="fa fa-linkedin-square"></span>
-              </a>
+      
+    			  <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/utkarshmani1997" target="_blank">
+					 <span class="fa fa-facebook"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-twitter"  href="https://twitter.com/utkarshmanitrip" target="_blank"">
+					 <span class="fa fa-twitter"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-quora" href="https://www.quora.com/profile/Utkarsh-Mani-Tripathi" target="_blank">
+					 <span class="fa fa-quora"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/utkarshmani1997" target="_blank">
+					 <span class="fa fa-linkedin"></span>
+				  </a>
+				
 		   </div>
 		   <div class="col-sm-3 img-fluid" alt="Responsive image">
 		     <img src="C:/Users/UTKARSH/Desktop/Aavesh/Photos/Utkarsh.jpg" alt="Men's Face" class="rounded img-team">
 			  <h4>Utkarsh</h4>
 			  <p>Hi there!It's Utkarsh.I am a Web-developer and a passionate writer.Currently i am persuing my B.Tech from KIIT UNIVERSITY,ODISHA.</p>	  
-               <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/utkarshmani1997" target="_blank">
-                 <span class="fa fa-facebook-square"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-twitter">
-                 <span class="fa fa-twitter-square"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-quora">
-                 <span class="fa fa-quora"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-linkedin">
-                 <span class="fa fa-linkedin-square"></span>
-              </a>       
+              
+    			  <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/utkarshmani1997" target="_blank">
+					 <span class="fa fa-facebook"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/utkarshmanitrip" target="_blank"">
+					 <span class="fa fa-twitter"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-quora" href="https://www.quora.com/profile/Utkarsh-Mani-Tripathi" target="_blank">
+					 <span class="fa fa-quora"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/utkarshmani1997" target="_blank">
+					 <span class="fa fa-linkedin"></span>
+				  </a>
+				       
 		  </div>
            <div class="col-sm-3">
 		     <img src="C:/Users/UTKARSH/Desktop/Aavesh/Photos/Utkarsh.jpg" alt="Men's Face" class="rounded img-team">
 			  <h4>Utkarsh</h4>
 			  <p>Hi there!It's Utkarsh.I am a Web-developer and a passionate writer.Currently i am persuing my B.Tech from KIIT UNIVERSITY,ODISHA.</p>		   
-              <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/utkarshmani1997" target="_blank">
-                 <span class="fa fa-facebook-square"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-twitter">
-                 <span class="fa fa-twitter-square"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-quora">
-                 <span class="fa fa-quora"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-linkedin">
-                 <span class="fa fa-linkedin-square"></span>
-              </a>		  
+               
+    			  <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/utkarshmani1997" target="_blank">
+					 <span class="fa fa-facebook"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/utkarshmanitrip" target="_blank"">
+					 <span class="fa fa-twitter"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-quora" href="https://www.quora.com/profile/Utkarsh-Mani-Tripathi" target="_blank">
+					 <span class="fa fa-quora"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/utkarshmani1997" target="_blank">
+					 <span class="fa fa-linkedin"></span>
+				  </a>
+				  
 		  </div> 
 		   <div class="col-sm-3">
 		     <img src="C:/Users/UTKARSH/Desktop/Aavesh/Photos/Utkarsh.jpg" alt="Men's Face" class="rounded img-team">
 			  <h4>Utkarsh</h4>
 			  <p>Hi there!It's Utkarsh.I am a Web-developer and a passionate writer.Currently i am persuing my B.Tech from KIIT UNIVERSITY,ODISHA.</p>		   
-	           <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/utkarshmani1997" target="_blank">
-                 <span class="fa fa-facebook-square"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-twitter">
-                 <span class="fa fa-twitter-square"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-quora">
-                 <span class="fa fa-quora"></span>
-              </a>
-			  <a class="btn btn-social-icon btn-linkedin">
-                 <span class="fa fa-linkedin-square"></span>
-              </a>	   
+	           
+    			  <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/utkarshmani1997" target="_blank">
+					 <span class="fa fa-facebook"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/utkarshmanitrip" target="_blank">
+					 <span class="fa fa-twitter"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-quora" href="https://www.quora.com/profile/Utkarsh-Mani-Tripathi" target="_blank">
+					 <span class="fa fa-quora"></span>
+				  </a>
+				  <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/utkarshmani1997" target="_blank">
+					 <span class="fa fa-linkedin"></span>
+				  </a>
+				  
 		   </div> 
 		</div>
       </div>	
